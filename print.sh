@@ -1,1 +1,1 @@
-echo "test"
+cat /bindings/docker-secret-claim
