@@ -1,6 +1,6 @@
 # tap-docker-workloads
 
-# dev-ns is being used in this example as kubernetes namespace. Please make changes in yaml files for your developer's namespace.
+dev-ns is being used in this example as kubernetes namespace. Please make changes in yaml files for your developer's namespace.
 
 Docker File is using nginx image. It copies print.sh script to container and then executes that script at the end as an entry point. Script prints the content of the secret that was created as Service Binding.
 There are two files. 
