@@ -5,7 +5,7 @@ metadata:
   namespace: dev-ns
 spec:
   ref:
-    apiVersion: config.apps.tanzu.vmware.com/v1alpha4
+    apiVersion: v1
     kind: Secret
     name: dsinfo.xml
     namespace: dev-ns

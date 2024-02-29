@@ -1,2 +1,1 @@
 echo "test"
-nginx start

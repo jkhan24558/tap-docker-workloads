@@ -1,5 +1,5 @@
 FROM nginx
 ADD ./print.sh ./print.sh
 RUN chmod +x ./print.sh
-EXPOSE 8080
+EXPOSE 80
 CMD ["./print.sh"]
