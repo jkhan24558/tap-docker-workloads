@@ -1,1 +1,1 @@
-cat "test"
+echo "test"
