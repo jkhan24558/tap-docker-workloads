@@ -8,6 +8,12 @@ metadata:
     apps.tanzu.vmware.com/auto-configure-actuators: "true"
     app.kubernetes.io/part-of: dockerworkload
 spec:
+  serviceClaims:
+    - name: docker-secret-claim
+      ref:
+        apiVersion: services.apps.tanzu.vmware.com/v1alpha1
+        kind: ResourceClaim
+        name: docker-secret-claim
   params:
   - name: dockerfile
     value: ./Dockerfile

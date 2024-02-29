@@ -1,0 +1,11 @@
+apiVersion: services.apps.tanzu.vmware.com/v1alpha1
+kind: ResourceClaim
+metadata:
+  name: docker-secret-claim
+  namespace: dev-ns
+spec:
+  ref:
+    apiVersion: config.apps.tanzu.vmware.com/v1alpha4
+    kind: Secret
+    name: dsinfo.xml
+    namespace: dev-ns
